@@ -4,6 +4,16 @@ This is a 12-month plan from the JS-first pivot (~2026-05) to a public release w
 
 If you're reading this and OGF doesn't look like this map, the map is wrong; update it.
 
+> **Drift declared 2026-10-15 (owner):** the Phase 0 docs below drifted from the project board. This section is kept as written history; the board is the source of truth until Phase 0 is re-synced.
+
+## Owner decisions 2026-10-15
+
+Decisions taken by the owner (Rylee) on 2026-10-15, after review of the docs against the project board. Rows below carry the markers; nothing here deletes roadmap work.
+
+- **Item 5 — Phase 0 docs drifted from the board.** Outcome: (b) drift declared, roadmap updated to match the board. Phase 0 rows marked "drift declared 2026-10-15 (owner)".
+- **Item 6 — GitHub issues are disabled for this repo.** Outcome: (a) gated on Phase 5. Note added: "issues disabled; enable at Phase 5 (owner decision 2026-10-15)". Nothing was filed or opened as part of this decision.
+- **Item 7 — Phases 2-4 and Tier C.** Outcome: (a) parked behind Phase 1. Rows marked "parked behind Phase 1 (owner decision 2026-10-15)". Rows are kept, not deleted.
+
 ## Vision
 
 > **Bolt.new for game dev.** Open browser, chat with an agent, ship a 2D game. No engine install, no boilerplate setup, drag-edit anything you don't want to describe in words. Export to web, itch.io, or Steam (via wrapper).
@@ -16,19 +26,21 @@ Answer at least one, ideally both.
 
 ## Phase 0 — Web-first reposition (now, ~1 week)
 
-**Status: in progress on `feature/js-first`.**
+**Status: in progress on `feature/js-first`** — drift declared 2026-10-15 (owner).
 
-- README + docs declare web as primary, Godot as second-class
-- Default engine flips from Godot to Web in the New Project flow
-- `docs/architecture.md` written so newcomers understand the agent-first paradigm
-- `docs/genre-support.md` started as a living matrix
-- Convention / spec template default audience = web games
+- README + docs declare web as primary, Godot as second-class — drift declared 2026-10-15 (owner)
+- Default engine flips from Godot to Web in the New Project flow — drift declared 2026-10-15 (owner)
+- `docs/architecture.md` written so newcomers understand the agent-first paradigm — drift declared 2026-10-15 (owner)
+- `docs/genre-support.md` started as a living matrix — drift declared 2026-10-15 (owner)
+- Convention / spec template default audience = web games — drift declared 2026-10-15 (owner)
 
 This phase is mostly text: positioning, defaults, direction. No SceneModel changes yet.
 
 ## Phase 1 — Phaser as default runtime + OGF Schema v1 (~3-5 weeks)
 
 **The largest single phase.** Lock in the runtime, write the schema, prove it works on three sample genres.
+
+> GitHub issues are disabled for this repo — issues disabled; enable at Phase 5 (owner decision 2026-10-15). Until then, track Phase 1 work in this doc.
 
 Deliverables:
 
@@ -52,6 +64,8 @@ Deliverables:
 
 ## Phase 2 — Tier A editor parity (~3-5 weeks)
 
+**Parked behind Phase 1 (owner decision 2026-10-15).** Rows kept, not deleted; not scheduled until Phase 1 lands.
+
 Run each Tier A genre end-to-end. For each genre, fill out a "demo gauntlet" table:
 
 ```
@@ -74,6 +88,8 @@ End state: all three Tier A genres have a green row across spec / assets / rende
 
 ## Phase 3 — Tier B genres (~6-8 weeks)
 
+**Parked behind Phase 1 (owner decision 2026-10-15).** Rows kept, not deleted; not scheduled until Phase 1 lands.
+
 RPG, roguelike, puzzle. Each one will reveal new SceneModel gaps. Repeat the gauntlet pattern.
 
 Likely structural extensions:
@@ -86,6 +102,8 @@ Likely structural extensions:
 This phase is the riskiest in scope — it's where OGF's "fit all genres" claim will either prove out or hit hard limits. Be willing to declare some Tier B genres "agent-only, editor-trust-mode" if the editor work is too big.
 
 ## Phase 4 — Distribution (~3-4 weeks)
+
+**Parked behind Phase 1 (owner decision 2026-10-15).** Rows kept, not deleted; not scheduled until Phase 1 lands.
 
 Make OGF games shareable.
 
@@ -101,11 +119,13 @@ End state: a non-developer user can make a game, click Export, and ship to itch.
 
 - Public landing page (replace this docs/ with proper marketing)
 - Tutorial videos / GIFs
-- Open the GitHub repo for issues
+- Open the GitHub repo for issues — issues disabled; enable at Phase 5 (owner decision 2026-10-15)
 - Asset library / template gallery
 - Genre community: invite contributions for Tier C genres
 
 ## Tier C — Long tail (whenever)
+
+**Parked behind Phase 1 (owner decision 2026-10-15).** Rows kept, not deleted.
 
 - Fighting games (frame data editor)
 - Tactics / grid games (cover, range, threat overlay)
