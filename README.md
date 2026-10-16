@@ -2,6 +2,15 @@
   <img src="apps/web/public/agf-banner.png" alt="Agent Game Forge" width="640" />
 </p>
 
+> **Fork context (2026-10-16):** This repository is the
+> [`rylee-bee-labs/agent-game-forge`](https://github.com/rylee-bee-labs/agent-game-forge)
+> fork of [`0x0funky/agent-game-forge`](https://github.com/0x0funky/agent-game-forge).
+> The installation instructions, GitHub badges and issue links below are **upstream**
+> references. To clone *this fork* instead, use
+> `git clone https://github.com/rylee-bee-labs/agent-game-forge.git`.
+> Upstream documentation does not establish which revision, if any, is deployed
+> in this estate; check the fork's source, CI and runtime separately.
+
 <p align="center">
   <b>The local-first, bring-your-own-agent 2D game IDE.</b><br/>
   Codex or Claude Code drives. Web today, Godot and Unity on the roadmap.
